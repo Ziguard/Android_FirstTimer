@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gef.myfirsttimer.SaisieActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/libbelle_decompte"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/saisie_marge"
+            android:text="@string/second_label_text"
+            android:textSize="@dimen/first_page_text_taille"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/saisie_decompte"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/saisie_marge_vue"
+            android:digits="0123456789"
+            android:hint="@string/saisie_hint_decompte"
+            android:inputType="number|none"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/saisie_taille_libelle" />
+
+        <Button
+            android:id="@+id/bouton_valider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/saisie_marge_vue"
+            android:background="@color/couleurSasieBouton"
+            android:onClick="onClickBoutonValider"
+            android:text="@string/first_page_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/saisie_taille_libelle"
+
+
+            >
+        </Button>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

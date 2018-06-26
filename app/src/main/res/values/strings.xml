@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyFirstTimer</string>
+
+    <!--Main-->
+    <string name="first_page_text">Créer un décompte</string>
+    <string name="main_bouton_text">Envoyer Décompte</string>
+    <string name="main_message_decompte">Décompte de %1$d secondes</string>
+
+    <!-- SecondActivity-->
+    <string name="second_label_text">Nombre de secondes :</string>
+    <string name="saisie_hint_decompte">123</string>
+    <string name="saisie_message_erreur">Merci de saisir un nombre</string>
+    <string name="saisie_bouton_valider">Lancer décompte</string>
+
+</resources>
